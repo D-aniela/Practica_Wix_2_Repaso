@@ -1,8 +1,62 @@
+@import url(//db.onlinewebfonts.com/c/0d4bd6300a54d19c5fc62fe7e07c48cb?family=Anton);
+
+.contenido {
+  position: absolute;
+}
+
 img {
-  width: 40%;
-  height: 70vh;
+  width: 100vw;
 }
 
 .carrouselCenter img {
   margin: auto;
+}
+
+.texto {
+  margin-left: 65%;
+}
+
+.texto h1 {
+  position: relative;
+  bottom: 160%;
+  width: 35%;
+  font-family: Anton;
+  font-size: 60px;
+  color: #11141D;
+  letter-spacing: 12px;
+}
+
+.texto .nuestros {
+  margin-left: 30%;
+  position: relative;
+  width: 45%;
+  bottom: 130%;
+  height: 20%;
+  background: #FFFFFF;
+}
+
+.linea{
+  position: relative;
+  width: 40px;
+  bottom: 250%;
+  height: 10px;
+  background: #FFFFFF;
+}
+
+.linea2{
+  margin-left: 40%;
+  position: relative;
+  width: 10px;
+  bottom: 280%;
+  height: 40px;
+  background: #4B4B4B;
+}
+
+.linea3{
+  margin-left: 70%;
+  position: relative;
+  width: 10px;
+  bottom: 310%;
+  height: 40px;
+  background: #FFFFFF;
 }

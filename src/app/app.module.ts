@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { CarrouselComponent } from './components/home/carrousel/carrousel.component';
+import { EligemeComponent } from './components/home/eligeme/eligeme.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { CarrouselComponent } from './components/home/carrousel/carrousel.compon
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    CarrouselComponent
+    CarrouselComponent,
+    EligemeComponent
   ],
   imports: [
     BrowserModule
