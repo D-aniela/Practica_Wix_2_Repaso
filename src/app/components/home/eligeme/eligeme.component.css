@@ -1,0 +1,36 @@
+* {
+  background: #EEEEEE;
+}
+
+.eligeme img:nth-child(1) {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: transparent;
+  z-index: 2;
+}
+
+.eligeme img:nth-child(2) {
+  position: relative;
+  margin-left: 47%;
+  z-index: 1;
+}
+
+.texto h1 {
+  position: relative;
+  bottom: 280%;
+  margin-left: 20%;
+  letter-spacing: 12px;
+  font-size: 55px;
+  font-family: Anton;
+}
+
+.texto p {
+  position: relative;
+  bottom: 270%;
+  margin-left: 15%;
+  font-size: 20px;
+  width: 30%;
+  text-align: center;
+  font-family: CenturyGothic;
+}

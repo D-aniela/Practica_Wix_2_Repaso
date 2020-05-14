@@ -1,7 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/0d4bd6300a54d19c5fc62fe7e07c48cb?family=Anton);
-
-.contenido {
-  position: absolute;
+.row{
+  background: #EEEEEE;
+  height: 100px;
 }
 
 img {
