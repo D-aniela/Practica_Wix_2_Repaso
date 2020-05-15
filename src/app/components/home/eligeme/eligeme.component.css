@@ -34,3 +34,21 @@
   text-align: center;
   font-family: CenturyGothic;
 }
+
+.texto .txtOf{
+  color: #ffffff;
+  background: transparent;
+}
+
+.texto .oferta {
+  position: relative;
+  bottom: 251%;
+  margin-left: 25%;
+  width: 10%;
+  height: 20%;
+  background: #000;
+}
+/* 
+.oferta{
+  cursor:pointer;
+} */

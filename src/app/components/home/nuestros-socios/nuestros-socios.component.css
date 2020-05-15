@@ -1,0 +1,68 @@
+#SquareSlide {
+  width: 440px;
+  position: absolute;
+  z-index: 3;
+  margin-top: 80px;
+  margin-left: 230px;
+}
+
+.BGPink {
+  position: relative;
+  background: #E0D4D1;
+  width: 637px;
+  height: 658px;
+  z-index: 2;
+  margin-left: 150px;
+}
+
+.BGGray {
+  position: relative;
+  background: #EEEEEE;
+  width: 100vw;
+  height: 658px;
+  z-index: 1;
+  bottom: 900px;
+}
+
+/* TEXTO NUESTROS SOCIOS MAS COOL */
+.texto {
+  margin-left: 530px;
+}
+
+.texto h1 {
+  position: relative;
+  bottom: 450px;
+  width: 140%;
+  font-family: Anton;
+  font-size: 50px;
+  color: #11141D;
+  letter-spacing: 12px;
+  line-height: 43px;
+}
+
+.texto h2 {
+  position: relative;
+  bottom: 320px;
+  width: 100%;
+  font-family: Anton;
+  font-size: 50px;
+  color: #11141D;
+}
+
+.texto h3 {
+  position: relative;
+  bottom: 375px;
+  margin-left: 40px;
+  width: 60%;
+  font-family: CenturyGothic;
+  font-size: 18px;
+  color: #11141D;
+}
+
+.texto .nuestros {
+  position: relative;
+  width: 52px;
+  height: 9px;
+  bottom: 150%;
+  background: #BEB5B4;
+}
