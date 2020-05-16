@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { CarrouselComponent } from './components/home/carrousel/carrousel.component';
 import { EligemeComponent } from './components/home/eligeme/eligeme.component';
 import { NuestrosSociosComponent } from './components/home/nuestros-socios/nuestros-socios.component';
+import { NuestraVisionComponent } from './components/home/nuestra-vision/nuestra-vision.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 
 @NgModule({
@@ -16,7 +18,9 @@ import { NuestrosSociosComponent } from './components/home/nuestros-socios/nuest
     HomeComponent,
     CarrouselComponent,
     EligemeComponent,
-    NuestrosSociosComponent
+    NuestrosSociosComponent,
+    NuestraVisionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

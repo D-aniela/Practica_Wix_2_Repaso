@@ -1,0 +1,60 @@
+.vision {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+img {
+  left: 50%;
+  transform: translateX(-20%);
+  z-index: 1;
+}
+
+.vision img:nth-child(1) {
+  position: absolute;
+  bottom: 70px;
+  left: 60%;
+}
+
+.vision img:nth-child(2) {
+  position: relative;
+}
+
+/* TEXTO NUESTRA VISIÓN */
+.texto {
+  position: relative;
+  left: 20%;
+  font-family: Anton;
+  width: 20%;
+  letter-spacing: 10px;
+  z-index: 2;
+  top: 150px;
+}
+
+.texto h1 {
+  font-size: 45px;
+  line-height: 41px;
+}
+
+.texto .linea {
+  position: relative;
+  top: 50px;
+  width: 48px;
+  height: 9px;
+  background: #BEB5B4;
+}
+
+.texto h2 {
+  position: relative;
+  top: 100px;
+  font-size: 45px;
+}
+
+.texto p {
+  position: relative;
+  top: 130px;
+  font-family: CenturyGothic;
+  font-size: 50px;
+  display: inline-block;
+  transform: scaleY(2);
+  cursor: pointer;
+}

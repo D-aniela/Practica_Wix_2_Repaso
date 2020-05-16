@@ -6,22 +6,28 @@
   margin-left: 230px;
 }
 
+.flex {
+  display: flex;
+  padding-left: 150px;
+  background: #EEEEEE;
+  height: 450px;
+  margin-bottom: 300px;
+}
+
 .BGPink {
   position: relative;
   background: #E0D4D1;
-  width: 637px;
+  width: 1550px;
   height: 658px;
   z-index: 2;
-  margin-left: 150px;
 }
 
 .BGGray {
   position: relative;
   background: #EEEEEE;
   width: 100vw;
-  height: 658px;
+  height: 450px;
   z-index: 1;
-  bottom: 900px;
 }
 
 /* TEXTO NUESTROS SOCIOS MAS COOL */
@@ -63,6 +69,6 @@
   position: relative;
   width: 52px;
   height: 9px;
-  bottom: 150%;
+  bottom: 80%;
   background: #BEB5B4;
 }
