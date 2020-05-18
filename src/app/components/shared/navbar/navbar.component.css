@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   min-width: 100%;
   min-height: 695px;
@@ -11,7 +12,8 @@ body {
   display: flex;
   width: 100%;
   height: 80px;
-  background: #FFFFFF;
+  background: rgb(228, 228, 228);
+  background: linear-gradient(#f1f5f7, #ffffff, #ffffff, #f1f5f7);
   justify-content: flex-end;
 }
 
@@ -23,4 +25,15 @@ body {
 
 .NavBar li:nth-child(5) {
   width: 15%;
+}
+
+li {
+  cursor: pointer;
+}
+
+
+.linea {
+  width: 100%;
+  height: 1px;
+  background: #E3E3E3;
 }
