@@ -10,7 +10,13 @@ import { NuestrosSociosComponent } from './components/home/nuestros-socios/nuest
 import { NuestraVisionComponent } from './components/home/nuestra-vision/nuestra-vision.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { SobreNosotrosComponent } from './components/Nosotros/sobre-nosotros/sobre-nosotros.component';
+import { ElComponent } from './components/products/el/el.component';
+import { EllaComponent } from './components/products/ella/ella.component';
+import { BebeComponent } from './components/products/bebe/bebe.component';
+import { NinosComponent } from './components/products/ninos/ninos.component';
+import { ZapateriaComponent } from './components/products/zapateria/zapateria.component';
 
+import{APP_ROUTES} from "./app.routes";
 
 @NgModule({
   declarations: [
@@ -22,10 +28,15 @@ import { SobreNosotrosComponent } from './components/Nosotros/sobre-nosotros/sob
     NuestrosSociosComponent,
     NuestraVisionComponent,
     FooterComponent,
-    SobreNosotrosComponent
+    SobreNosotrosComponent,
+    ElComponent,
+    EllaComponent,
+    BebeComponent,
+    NinosComponent,
+    ZapateriaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, APP_ROUTES
   ],
   providers: [],
   bootstrap: [AppComponent]

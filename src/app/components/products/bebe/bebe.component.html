@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-12">
+        <h1>BEBE</h1>
+        <div class="linea1"></div>
+        <div class="linea2"></div>
+    </div>
+  </div>
+
+<div class="row fadeIn">
+  <div class="col-3 m-auto" *ngFor="let producto of productsShow">
+
+    <div class="tarjeta">
+
+      <div>
+        <img [src]="producto.img" alt="">
+        <span>Mostrar Detalles</span>
+      </div>
+
+      <span>{{producto.model}}</span>
+      <span>${{producto.price}}</span>
+
+    </div>
+
+  </div>
+</div>
