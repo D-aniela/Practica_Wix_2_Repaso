@@ -3,6 +3,7 @@ import { departments, products } from '../../../data/data';
 import { from } from 'rxjs';
 import { filter, map, tap } from 'rxjs/operators';
 import { ProductsInterface } from '../../../interfaces/ecommerce.interfaces';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-zapateria',
@@ -12,7 +13,7 @@ import { ProductsInterface } from '../../../interfaces/ecommerce.interfaces';
 export class ZapateriaComponent implements OnInit {
   public productsShow: Array<ProductsInterface> = [];
 
-  constructor() {
+  constructor(private router: Router) {
     this.GetProducts();
   }
 
@@ -38,5 +39,9 @@ export class ZapateriaComponent implements OnInit {
         )
       )
       .subscribe();
+  }
+
+  public getIdZapateria(id: number) {
+    this.router.navigate(['info', id]);
   }
 }

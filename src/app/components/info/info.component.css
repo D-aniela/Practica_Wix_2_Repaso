@@ -1,0 +1,74 @@
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  
+  .infoProd p {
+    font-size: 20pt;
+    color: #4F4F4F;
+  }
+  
+  .infoProd span {
+    color: #D0D0D0;
+  }
+  
+  select {
+    width: 50%;
+    height: 20%;
+  }
+  
+  .cantidad {
+    margin-top: 30px;
+  }
+  
+  .numero {
+    margin-top: 5px;
+  }
+  
+  .cart {
+    background: #45A37A;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    height: 30px;
+  }
+  
+  .cart p {
+    font-size: 12pt;
+    color: #D0D0D0;
+  }
+  
+  .firstPar h6{
+      margin-top: 50px;
+  }
+  
+  .firstPar p {
+    font-size: 10pt;
+    text-align: justify;
+    width: 65%;
+  }
+  
+  .line{
+      background: #D0D0D0;
+      width: 65%;
+      height: 2px;
+      margin: 30px 0px;
+  }
+  
+  .secondPar p {
+    font-size: 10pt;
+    text-align: justify;
+    width: 65%;
+  }
+  
+/* .circulo {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  left: 30px;
+  top: 10px;
+  border-radius: 50%;
+  display: inline-block;
+} */

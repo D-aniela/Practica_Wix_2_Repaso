@@ -1,0 +1,99 @@
+<div class="row">
+  <div class="col-6">
+    <div class="imgProducto">
+
+
+      <div>
+        <img [src]="producto.img" alt="" />
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="col-6">
+    <div class="infoProd">
+
+
+      <div class="col-12">
+        <p>
+          {{producto.brand}}
+        </p>
+        <span>
+          SKU: 00{{producto.id}}
+        </span>
+      </div>
+
+      <div class="col-12">
+        <p>
+          {{producto.price}}
+        </p>
+      </div>
+
+      <div class="col-12">
+        <span>
+          Size
+        </span>
+      </div>
+
+      <div class="col-12">
+        <select name="Select" id="">
+          <option value="">Select</option>
+        </select>
+      </div>
+
+      <!-- <div>
+        <span style="background:#000" class="circulo"></span>
+      </div> -->
+
+      <div class="col-12 cantidad">
+        <span>
+          Quantity
+        </span>
+      </div>
+
+      <div class="col-12 numero">
+        <input type="text" placeholder="1">
+      </div>
+
+      <div class="col-12">
+        <div class="cart">
+          <p>
+            Add to cart
+          </p>
+        </div>
+      </div>
+
+
+      <div class="ProductInfo">
+        <div class="col-12 firstPar">
+          <h6>
+            PRODUCT INFO
+          </h6>
+          <p>
+            {{producto.description}}
+          </p>
+        </div>
+
+        <div class="col-12 line"></div>
+
+        <div class="col-12 secondPar">
+          <h6>RETURN AND REFUND POLICY</h6>
+          <p>
+            I’m a Return and Refund policy. I’m a great place to let your customers know what to do in case they are
+            dissatisfied with their purchase. Having a straightforward refund or exchange policy is a great way to build
+            trust and reassure your customers that they can buy with confidence.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="iconos">
+        <div class="col-12">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -3,6 +3,7 @@ import { ProductsInterface } from 'src/app/interfaces/ecommerce.interfaces';
 import { departments, products } from '../../../data/data';
 import { from } from 'rxjs';
 import { filter, map, tap } from 'rxjs/operators';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-el',
@@ -12,7 +13,7 @@ import { filter, map, tap } from 'rxjs/operators';
 export class ElComponent implements OnInit {
   public productsShow: Array<ProductsInterface> = [];
 
-  constructor() {
+  constructor(private router: Router) {
     this.GetProducts();
   }
 
@@ -38,5 +39,9 @@ export class ElComponent implements OnInit {
         )
       )
       .subscribe();
+  }
+
+  public GetID(id:number){
+    this.router.navigate(['info', id])
   }
 }

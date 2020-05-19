@@ -17,6 +17,7 @@ import { NinosComponent } from './components/products/ninos/ninos.component';
 import { ZapateriaComponent } from './components/products/zapateria/zapateria.component';
 
 import{APP_ROUTES} from "./app.routes";
+import { InfoComponent } from './components/info/info.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import{APP_ROUTES} from "./app.routes";
     EllaComponent,
     BebeComponent,
     NinosComponent,
-    ZapateriaComponent
+    ZapateriaComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule, APP_ROUTES
