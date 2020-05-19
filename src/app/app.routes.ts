@@ -7,6 +7,7 @@ import { BebeComponent } from './components/products/bebe/bebe.component';
 import { ZapateriaComponent } from './components/products/zapateria/zapateria.component';
 import { SobreNosotrosComponent } from './components/Nosotros/sobre-nosotros/sobre-nosotros.component';
 import { InfoComponent } from './components/info/info.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 const Rutas: Routes = [
     {path: '', component: HomeComponent},
@@ -17,6 +18,7 @@ const Rutas: Routes = [
     {path: 'zapateria', component: ZapateriaComponent},
     {path: 'nosotros', component: SobreNosotrosComponent},
     {path: 'home', component: HomeComponent},
+    {path: 'contacto', component: ContactoComponent},
 
     {path: 'info/:id', component: InfoComponent}
 ]

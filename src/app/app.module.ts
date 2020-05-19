@@ -18,6 +18,7 @@ import { ZapateriaComponent } from './components/products/zapateria/zapateria.co
 
 import{APP_ROUTES} from "./app.routes";
 import { InfoComponent } from './components/info/info.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { InfoComponent } from './components/info/info.component';
     BebeComponent,
     NinosComponent,
     ZapateriaComponent,
-    InfoComponent
+    InfoComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule, APP_ROUTES

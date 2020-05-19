@@ -1,0 +1,108 @@
+h1 {
+  position: relative;
+  font-family: Anton;
+  width: 25%;
+  font-size: 60px;
+  letter-spacing: 10px;
+  line-height: 50px;
+  left: 15%;
+  z-index: 2;
+}
+
+.linea1 {
+  position: relative;
+  background: #E0D4D1;
+  width: 440px;
+  height: 90px;
+  z-index: 1;
+  left: 12%;
+  top: -30%;
+}
+
+.linea2 {
+  position: relative;
+  background: #BEB5B4;
+  width: 48px;
+  height: 9px;
+  z-index: 1;
+  left: 15%;
+}
+
+/* DUDA INPUTS */
+
+h2 {
+  position: relative;
+  font-family: Anton;
+  left: 12%;
+  font-size: 40px;
+  letter-spacing: 10px;
+  width: 30%;
+  line-height: 38px;
+}
+
+.datosInput {
+  padding-left: 12%;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: 3px solid black;
+  padding-left: 5px;
+  font-family: CenturyGothic;
+  font-size: 18px;
+}
+
+.mensaje {
+  padding-right: 12%;
+}
+
+.mensaje input {
+  height: 155px;
+  padding-bottom: 100px;
+}
+
+.enviar {
+  position: relative;
+  background: #000;
+  width: 25%;
+  left: 75%;
+  cursor: pointer;
+}
+
+.enviar span {
+  color: white;
+  font-family: CenturyGothic;
+  font-size: 18px;
+}
+
+/* DATOS PARTE INFERIOR */
+.datos{
+    display: flex;
+    padding-left: 24%;
+}
+
+h3{
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: Anton;
+    width: 100%;
+}
+
+p{
+    font-family: CenturyGothic;
+    width: 120%;
+}
+
+.horario{
+    padding-left: 24%;
+}
+
+/* LINE */
+
+.linea{
+    width: 3px;
+    height:22px;
+    background: #DDDDDD;
+    transform: rotate(25deg);
+}
